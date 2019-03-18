@@ -13,4 +13,10 @@ $('.refresh-button').on('click', function() {
         index -= 1;
       }
   });  
-}); 
+});
+
+$('p').on('click', function() {
+  $(document).ready(function() {
+    
+  });
+});
