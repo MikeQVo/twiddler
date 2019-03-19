@@ -17,6 +17,38 @@
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #666;
+    margin-bottom: 25px;
+    
+}
+
+.home-button:hover {background-color: #3e8e41;};
+
+.home-button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.home-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-button {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: large;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #666;
+    margin-bottom: 25px;
     
 }
 
@@ -28,11 +60,6 @@
     transform: translateY(4px);
 }
 
-.container {
-    
-
-}
-
 p {
     display: flex;
     margin-block-start: 1em;
@@ -42,3 +69,14 @@ p {
     font-size: large;
     justify-content: center;
 }
+
+.messageContainer {
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+button.shawndrost { background: none; border: none;  font-size: 20px;}
+button.sharksforcheap { background: none; border: none; font-size: 20px;}
+button.mracus { background: none; border: none; font-size: 20px;}
+button.douglascalhoun { background: none; border: none; font-size: 20px;}
