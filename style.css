@@ -1,36 +1,22 @@
-.refresh-button-container {
-	display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+    background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/54/48/EFVmhg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.refresh-button {
-    display: inline-block;
-    padding: 10px 25px;
-    font-size: large;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #666;
+h1 {
+    background-color: #89928E;
+    color: #CACCC0;
+    border: solid #566F64;
+    border-radius: 10px;
+    margin: auto;
     margin-bottom: 25px;
-    
-}
-
-.home-button:hover {background-color: #3e8e41;};
-
-.home-button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
+    width: 200px;
 }
 
 .home-button-container {
-    display: flex;
+	display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -43,40 +29,55 @@
     text-align: center;
     text-decoration: none;
     outline: none;
-    color: #fff;
-    background-color: #4CAF50;
+    color: #ECF1CE;
+    background-color: #BCB0B4;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #666;
+    box-shadow: 0 9px #8F6F79;
     margin-bottom: 25px;
     
 }
 
-.refresh-button:hover {background-color: #3e8e41;};
+.home-button:hover {background-color: #210400;};
 
-.refresh-button:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
+.home-button:active {
+    background-color: #210400;
+    box-shadow: 0 5px #210400;
     transform: translateY(4px);
 }
 
-p {
-    display: flex;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-size: large;
-    justify-content: center;
+.container{
+    overflow: auto;
+    height: 570px;
+    width: 500px;
+    margin: auto;
 }
 
 .messageContainer {
-    justify-content: center;
+    /*justify-content: center;*/
     text-align: center;
     font-size: 15px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: content-box;
+    width: 300px;
+    height: 100px;
+    padding: 30px;
+    border: 5px solid #BCB0B4;
+    border-radius: 30px;
+    background-color: #CACCC0;
 }
 
-button.shawndrost { background: none; border: none;  font-size: 20px;}
-button.sharksforcheap { background: none; border: none; font-size: 20px;}
-button.mracus { background: none; border: none; font-size: 20px;}
-button.douglascalhoun { background: none; border: none; font-size: 20px;}
+p {
+    font-size: medium;
+}
+
+button.shawndrost { background: none; border: none;  font-size: 20px; }
+button.sharksforcheap { background: none; border: none; font-size: 20px; }
+button.mracus { background: none; border: none; font-size: 20px; }
+button.douglascalhoun { background: none; border: none; font-size: 20px; }
+
+.comments {
+    
+}

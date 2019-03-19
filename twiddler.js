@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.refresh-button').on('click', function() {
+  $('.home-button').on('click', function() {
   
     var $container = $('.container');
       $container.html('');   
@@ -12,39 +12,120 @@ $(document).ready(function(){
         var $user = $('<button class=\"' + tweet.user + '\"></button>');
         $user.text('@' + tweet.user);
         var $tweet = $('<p></p>');
-        $tweet.text(tweet.message + ' (' + tweet.created_at + ')');
+        var $timestamp = $('<p></p>');
+        $timestamp.text('(' + tweet.created_at + ')');
+        $tweet.text(tweet.message);
         $user.appendTo($messageBox);
         $tweet.appendTo($messageBox);
+        $timestamp.appendTo($messageBox);
         $messageBox.appendTo($container);
         index -= 1;
       }
   });
 
-  $('.shawndrost').on('click', function() {
-    alert('it works');
+  $('.container').on('click', '.shawndrost', function() {
+    $(document).ready(function(){
+    var $container = $('.container');
+        $container.html('');   
+  
+    var index = streams.users.shawndrost.length - 1;
+    console.log(index);
+      while(index >= 0){
+        var $messageBox = $('<div class=\"messageContainer\"></div>') 
+        var tweet = streams.users.shawndrost[index];
+        var $user = $('<button class=\"' + tweet.user + '\"></button>');
+        $user.text('@' + tweet.user);
+        var $tweet = $('<p></p>');
+        var $timestamp = $('<p></p>');
+        $timestamp.text('(' + tweet.created_at + ')');
+        $tweet.text(tweet.message);
+        $user.appendTo($messageBox);
+        $tweet.appendTo($messageBox);
+        $timestamp.appendTo($messageBox);
+        $messageBox.appendTo($container);
+        index -= 1;
+      }
+    });  
   });
+
+  $('.container').on('click', '.sharksforcheap', function() {
+    $(document).ready(function(){
+    var $container = $('.container');
+        $container.html('');   
   
+    var index = streams.users.sharksforcheap.length - 1;
+    console.log(index);
+      while(index >= 0){
+        var $messageBox = $('<div class=\"messageContainer\"></div>') 
+        var tweet = streams.users.sharksforcheap[index];
+        var $user = $('<button class=\"' + tweet.user + '\"></button>');
+        $user.text('@' + tweet.user);
+        var $tweet = $('<p></p>');
+        var $timestamp = $('<p></p>');
+        $timestamp.text('(' + tweet.created_at + ')');
+        $tweet.text(tweet.message);
+        $user.appendTo($messageBox);
+        $tweet.appendTo($messageBox);
+        $timestamp.appendTo($messageBox);
+        $messageBox.appendTo($container);
+        index -= 1;
+      }
+    });  
+  });
+
+  $('.container').on('click', '.mracus', function() {
+    $(document).ready(function(){
+    var $container = $('.container');
+        $container.html('');   
+  
+    var index = streams.users.mracus.length - 1;
+    console.log(index);
+      while(index >= 0){
+        var $messageBox = $('<div class=\"messageContainer\"></div>') 
+        var tweet = streams.users.mracus[index];
+        var $user = $('<button class=\"' + tweet.user + '\"></button>');
+        $user.text('@' + tweet.user);
+        var $tweet = $('<p></p>');
+        var $timestamp = $('<p></p>');
+        $timestamp.text('(' + tweet.created_at + ')');
+        $tweet.text(tweet.message);
+        $user.appendTo($messageBox);
+        $tweet.appendTo($messageBox);
+        $timestamp.appendTo($messageBox);
+        $messageBox.appendTo($container);
+        index -= 1;
+      }
+    });  
+  });
+
+  $('.container').on('click', '.douglascalhoun', function() {
+    $(document).ready(function(){
+    var $container = $('.container');
+        $container.html('');   
+  
+    var index = streams.users.douglascalhoun.length - 1;
+    console.log(index);
+      while(index >= 0){
+        var $messageBox = $('<div class=\"messageContainer\"></div>') 
+        var tweet = streams.users.douglascalhoun[index];
+        var $user = $('<button class=\"' + tweet.user + '\"></button>');
+        $user.text('@' + tweet.user);
+        var $tweet = $('<p></p>');
+        var $timestamp = $('<p></p>');
+        $timestamp.text('(' + tweet.created_at + ')');
+        $tweet.text(tweet.message);
+        $user.appendTo($messageBox);
+        $tweet.appendTo($messageBox);
+        $timestamp.appendTo($messageBox);
+        $messageBox.appendTo($container);
+        index -= 1;
+      }
+    });  
+  });
+
+  $('.submit-button').on('click', function() {
+    $(document).ready(function() {
+      
+    });
+  });
 });
-
-// $('.shawndrost').on('click', function() {
-//   $(document).ready(function(){
-//   var $container = $('.container');
-//       $container.html('');   
-  
-//   var userIndex = streams.users.shawndrost.length - 1;
-//   console.log(index);
-//       while(userIndex >= 0){
-//         // var $messageBox = $('<div class=\"messageContainer\"></div>') 
-//         var userTweet = streams.users.shawndrost[userIndex];
-//         // var $user = $('<button class=\"' + tweet.user + '\"></button>');
-//         $user.text('@' + tweet.user);
-//         // var $tweet = $('<p></p>');
-//         $tweet.text(tweet.message + ' (' + tweet.created_at + ')');
-//         $user.appendTo($messageBox);
-//         $userTweet.appendTo($messageBox);
-//         $messageBox.appendTo($container);
-//         index -= 1;
-//       }
-//   });  
-// });
-
